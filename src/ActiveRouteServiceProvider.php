@@ -44,6 +44,11 @@ class ActiveRouteServiceProvider extends BaseServiceProvider
         });
     }
 
+    public function getTheLinkForHomePage()
+    {
+
+    }
+
     protected function publishConfig()
     {
         $this->publishes([
@@ -57,7 +62,7 @@ class ActiveRouteServiceProvider extends BaseServiceProvider
 
         Blade::directive('ifActiveRoute', function ($expression) {
 
-                return "<?php if (Active::route({ $expression})): ?>";
+                return "<?php if (Active::route({$expression})): ?>";
         });
     }
 
