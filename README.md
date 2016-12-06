@@ -1,7 +1,7 @@
 # Laravel Active Route
 #### v1.0
 
-A laravel helper package.
+Helper class for Laravel applications to get active class base on current route name.
 
 ## Installation
 
