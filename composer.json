@@ -5,8 +5,8 @@
     "authors": [{"name": "Rukhsar Manzoor", "email": "rukhsar.man@gmail.com"}],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.1.*||5.2.*||5.3.*",
-        "illuminate/routing": "5.1.*||5.2.*||5.3.*"
+        "illuminate/support": "5.1.*||5.2.*||5.3.*||5.4.*",
+        "illuminate/routing": "5.1.*||5.2.*||5.3.*||5.4.*"
     },
       "autoload": {
       "psr-4": {
