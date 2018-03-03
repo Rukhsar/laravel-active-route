@@ -40,7 +40,7 @@ class ActiveRouteServiceProvider extends BaseServiceProvider
 
         // Register Singletion
         $this->app->singleton('active', function($app) {
-            return new Active($app['router']->current()->getName());
+            return new Active(optional($app['router']->current())->getName());
         });
     }
 
